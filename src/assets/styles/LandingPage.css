@@ -1,0 +1,79 @@
+/*Imágen de fondo*/
+.background{
+   
+   background-image: url("../images/background-landing-page.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 40rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.box{
+   margin-left: 7%;
+   margin-top: 7%;
+   text-align: justify;
+   margin-right: 55%;
+
+}
+
+
+ h3{
+   color: var(--textColor1);
+   opacity: 100%;
+   background-color: transparent;
+}
+
+h1{
+   font-size: 250%;
+   color: var(--textColor1);
+   opacity: 100%;
+   background-color: transparent;
+}
+
+.texto-1{
+   font-size: inherit;
+   text-align: center;
+   padding-top: 0.5rem;
+   color: var(--mainColor);
+   background-color: var(--secondaryColor);
+   height: 2rem;
+   width: 10rem;
+   border-radius: 7%;
+}
+
+.buscador{
+   display: grid;
+   flex-direction: row;
+   align-items: center;
+   background-color: var(--mainColor);
+   grid-template-columns: 2fr 2fr 3fr 2fr;
+   border-radius: 3%;
+}
+
+.busqueda{
+   margin-left: 7%;
+   text-align: justify;
+   margin-right: 40%;
+}
+
+h4{
+   color: var(--textColor2);
+   font-size: 1rem;
+   font-weight: lighter;
+}
+
+.caja {
+margin-left: 2rem;
+}
+
+#boton-buscar{
+   margin: 2rem;
+   max-width: 6rem;
+   background-color: var(--secondaryColor);
+	color: var(--mainColor);
+   border-radius: 8px;
+   border: none;
+   height: 2rem;
+   width: 15rem;
+}

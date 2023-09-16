@@ -1,0 +1,10 @@
+:root {
+	--mainColor: #ffffff;
+	--secondaryColor: #4236FF;
+	--textColor1: #000929;
+  --textColor2: #666666;
+  --backgroundColor: rgba(183, 180, 252, 0.87);
+  text-align: center;
+}
+
+
